@@ -95,7 +95,7 @@ def plot_loss_over_epochs(epochs,status,model, value, l_or_a):
     plt.xlabel('Epoch')
     plt.ylabel('Loss')
     plt.title(model +'_'+ status +'_' + l_or_a)
-    plt.savefig("/dshome/ddualab/yohan/deeplearning_HW/img/plot_{}_{}_{}.png".format(model, status, l_or_a))
+    plt.savefig("/your_img_dir/img/plot_{}_{}_{}.png".format(model, status, l_or_a))
     plt.clf()
     
     
@@ -113,8 +113,8 @@ def main():
 
     # write your codes here
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    train_dir = '/dshome/ddualab/yohan/deeplearning_HW/data/train/train'
-    test_dir = '/dshome/ddualab/yohan/deeplearning_HW/data/test/test'
+    train_dir = '/your_train_dataset/data/train/train'
+    test_dir = '/your_test_dataset/data/test/test'
     model_type = 'CustomMLP'  # 'LeNet5' or 'CustomMLP'
     
     train_dataset = dataset.MNIST(data_dir=train_dir, model=model_type)
