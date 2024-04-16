@@ -30,23 +30,35 @@ fc2: 입력 뉴런 수 84개, 출력 뉴런 수 10개
 - **활성화 함수:** tanh
 
 #### CustomMLP
-- **파라미터 수:** 약 62,770
+fc1: 입력 뉴런 수 1024개, 출력 뉴런 수 60개
+파라미터: (1024*60) + 60 = 61500
+fc2: 입력 뉴런 수 60개, 출력 뉴런 수 10개
+파라미터: (60*10) + 10 = 610
+- **총 파라미터 수:** 61500 + 610 = 62110
 - **dropout:** 0.5
-- **활성화 함수:** tanh
+- **활성화 함수:** ReLU
 ---
 
-### 실험 결과
+## 실험결과
+### LeNet5 Model
 
-#### LeNet5
-- 이미지는 `img` 폴더에 있습니다.
+- Test Accuracy: ![LeNet5 Model Test Accuracy](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_LeNet5_test_acc.png)
+- Test Loss: ![LeNet5 Model Test Loss](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_LeNet5_test_loss.png)
+- Training Accuracy: ![LeNet5 Model Training Accuracy](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_LeNet5_train_acc.png)
+- Training Loss: ![LeNet5 Model Training Loss](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_LeNet5_train_loss.png)
 
+### CustomMLP Model
+
+- Test Accuracy: ![CustomMLP Model Test Accuracy](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_CustomMLP_test_acc.png)
+- Test Loss: ![CustomMLP Model Test Loss](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_CustomMLP_test_loss.png)
+- Training Accuracy: ![CustomMLP Model Training Accuracy](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_CustomMLP_train_acc.png)
+- Training Loss: ![CustomMLP Model Training Loss](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_CustomMLP_train_loss.png)
 #### Test Loss 및 Accuracy
 
-| Trial | Test Loss | Accuracy |
+| Model | Loss | Accuracy |
 |-------|-----------|----------|
-|   1   |    0.123  |   94.5%  |
-|   2   |    0.118  |   94.8%  |
-|   3   |    0.121  |   94.3%  |
+|   LeNet5   |    1.5190  |   94.5%  |
+|   CustomMLP   |    0.0928  |   97.31%  |
 
 ---
 
