@@ -6,9 +6,9 @@
 
 ### 파일 설명
 
-- `dataset.py`: 데이터셋 관련 코드
-- `model.py`: 모델 정의 코드
-- `main.py`: 주 실행 파일
+- `dataset.py`: MNIST dataset load & data preprocessing
+- `model.py`: LeNet-5 & CustomMLP
+- `main.py`: train & test & save_plot
 
 ---
 
@@ -65,5 +65,4 @@
 
 ### 요구 사항
 
-- 해당 프로젝트를 실행하기 위해 다음 사항이 필요합니다.
-- 추가적인 설치나 설정에 대한 참고사항이 있을 경우 여기에 작성해주세요.
+- requirements.txt
