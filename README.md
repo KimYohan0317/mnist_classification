@@ -42,17 +42,18 @@
 ## 실험결과
 ### LeNet5 Model
 
-- Test Accuracy: ![LeNet5 Model Test Accuracy](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_LeNet5_test_acc.png)
-- Test Loss: ![LeNet5 Model Test Loss](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_LeNet5_test_loss.png)
-- Training Accuracy: ![LeNet5 Model Training Accuracy](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_LeNet5_train_acc.png)
-- Training Loss: ![LeNet5 Model Training Loss](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_LeNet5_train_loss.png)
+- **Test Accuracy:** View test accuracy [here](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_LeNet5_test_acc.png)
+- **Test Loss:** View test loss [here](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_LeNet5_test_loss.png)
+- **Training Accuracy:** View training accuracy [here](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_LeNet5_train_acc.png)
+- **Training Loss:** View training loss [here](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_LeNet5_train_loss.png)
 
 ### CustomMLP Model
 
-- Test Accuracy: ![CustomMLP Model Test Accuracy](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_CustomMLP_test_acc.png)
-- Test Loss: ![CustomMLP Model Test Loss](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_CustomMLP_test_loss.png)
-- Training Accuracy: ![CustomMLP Model Training Accuracy](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_CustomMLP_train_acc.png)
-- Training Loss: ![CustomMLP Model Training Loss](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_CustomMLP_train_loss.png)
+- **Test Accuracy:** View test accuracy [here](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_CustomMLP_test_acc.png)
+- **Test Loss:** View test loss [here](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_CustomMLP_test_loss.png)
+- **Training Accuracy:** View training accuracy [here](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_CustomMLP_train_acc.png)
+- **Training Loss:** View training loss [here](https://github.com/KimYohan0317/mnist_classification/blob/main/img/plot_CustomMLP_train_loss.png)
+
 #### Test Loss 및 Accuracy
 
 | Model | Loss | Accuracy |
